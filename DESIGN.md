@@ -14,3 +14,7 @@ Status: neutrale Testdaten. Der aktuelle Stand enthält keine übernommene Unter
 Je Befund Komponente, Zustand, Kontext, Version oder Datum und konkrete Fundstelle nennen. „Vorgegeben“ bezeichnet eine explizite Regel, „beobachtet“ ein Ergebnis in einem konkreten Angular- oder Figma-Beispiel, „abgeleitet“ eine eigene Entscheidung. Bei widersprüchlichen Quellen beide Befunde aufführen. Unzugängliche Varianten als offen markieren.
 
 Vergleiche zuerst sekundären Button, Fehlerfeld und Dialog bei identischem Text und gleicher Breite. Rhea ist eine Arbeitshypothese für kompakte Geometrie. Vergleiche Höhe, Innenabstand, Radius, Typografie und Fokus mit der tatsächlichen Referenz. Entscheide dann über Preset und Anpassung. Die Gruppe aus Label, Eingabe und Fehlermeldung wird zunächst im Dialog erprobt; bei zweitem Einsatz gemeinsam extrahieren.
+
+## Arbeitsansichten
+
+Die Regeln der Demo sind abgeleitete Vorschläge für neutrale Beispieldaten. Prüfstationen und Wartungsaufträge verwenden dasselbe Pattern. Beide Ansichten gruppieren Suche und Statusfilter direkt über der Ergebnisliste. Blockierte Einträge und Einträge in Prüfung bleiben über Text identifizierbar. Die Speicheraktion wird verfügbar, sobald eine noch nicht gespeicherte Filterkombination vorliegt. Button und Eingabefeld aus der Komponententafel kommen auch in der Arbeitsansicht und im Dialog zum Einsatz. Alle drei Ansichten verwenden dieselben semantischen Farben für helle und dunkle Darstellung.

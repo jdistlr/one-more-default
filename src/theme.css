@@ -1,20 +1,8 @@
 @import "tailwindcss" source(none);
 @import "./shadcn.css";
+@import "./studio.css";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *), &:where([data-system-dark], [data-system-dark] *));
 @source "./";
-:root {
-  --background: #f7f7f2;
-  --foreground: #202522;
-  --primary: #314e45;
-  --primary-foreground: #fff;
-  --secondary: #dee6df;
-  --secondary-foreground: #263b31;
-  --muted: #e8ebe5;
-  --border: #929b92;
-  --input: #878f88;
-  --ring: #205fa9;
-  --destructive: #982b3e;
-  --control-radius: .5rem;
-}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -25,9 +13,9 @@
   --color-muted: var(--muted);
   --color-border: var(--border);
   --color-input: var(--input);
-  --color-card: #fff;
+  --color-card: var(--surface);
   --color-card-foreground: var(--foreground);
-  --color-muted-foreground: #536057;
+  --color-muted-foreground: var(--subtle);
   --color-ring: var(--ring);
   --color-destructive: var(--destructive);
   --radius-2xl: var(--control-radius);
