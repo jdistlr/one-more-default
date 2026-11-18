@@ -32,3 +32,9 @@ Für einen schon installierten Chromium kann CHROMIUM_PATH den Pfad zur ausführ
 - [Rhea-Button aus der offiziellen Registry](https://ui.shadcn.com/r/styles/base-rhea/button.json) übernommen am 18.11.2026. Der cn-Import verweist auf den lokalen Helfer. Der Dialog nutzt das native HTML-dialog-Element und denselben React-Button. Rhea ist ein Kandidat für die Geometrie, die aktuellen Farben sind neutral gewählte Versuchswerte.
 - [Craft von Diego Fernandes](https://github.com/diego3g/craft/tree/2b1f0eed509173edebbfe03f7442d72c16377e45) bleibt für Exploration verfügbar. [Ursprüngliche Paper-Versuche](experiments/README.md) und [Button-Tafel](experiments/button.html).
 - [Figma-Lesestrategie](docs/figma.md) mit optionaler lokaler MCP-Konfiguration, Zugriffsprobe und Fallbacks. Interne Referenzen können ebenso aus dem Leitfaden und einer gerenderten Angular-Komponente kommen.
+
+## Storybook auf GitHub Pages
+
+Das Beispielblatt unter **Komponenten → Rhea → Beispielblatt** zeigt Formularvalidierung, Tabellenfilter und einen schrittweisen Prüflauf. Die unabhängigen Stories öffnen jedes Muster einzeln. Button, Badge, Alert, Card, Input, Textarea, Switch, Progress, Separator, Tabs, Table und Skeleton stammen aus der offiziellen Registry `https://ui.shadcn.com/r/styles/base-rhea/{name}.json` (18.11.2026). Die lokalen Importe verwenden denselben cn-Helfer. src/shadcn.css übernimmt die gemeinsamen Varianten aus packages/shadcn/src/tailwind.css des im Abschnitt Herkunft verlinkten Upstream-Stands.
+
+Der Workflow Storybook Pages baut auf main das statische Storybook und lädt ausschließlich storybook-static hoch. Die Pages-Quelle ist **Settings → Pages → Source → GitHub Actions**. Nach erstmaligem Einschalten lässt sich der Workflow unter Actions erneut starten. Das veröffentlichte Beispielblatt enthält neutrale Demo-Daten.
